@@ -121,6 +121,7 @@ main {
   letter-spacing: 0.09em;
   padding: 54px;
   color: white;
+  min-height: calc(100vh - 72px);
 }
 
 footer {
@@ -129,5 +130,5 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 27px;
-  margin-top: -111px;
+  margin-top: -54px;
 }
