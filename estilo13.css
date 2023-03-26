@@ -65,7 +65,7 @@ footer {
   padding: 0;
 }
 body {
-  font-family: 'INTUITIVE-FREE', sans-serif;
+  font-family: 'INTUITIVE-FREE', 'PTMono-Regular', monospace;sans-serif;
   background-color: #000000;
   margin: 0;
   padding: 0;
@@ -120,6 +120,7 @@ main {
   text-align: center;
   letter-spacing: 0.09em;
   padding: 54px;
+  color: white;
 }
 
 footer {
