@@ -80,7 +80,7 @@ h1 {
   margin: 0;
 }
 nav {
-  font-size: 2.7vw;
+  font-size: 1.8vw;
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
@@ -125,7 +125,7 @@ nav a:hover {
 
 main {
   text-align: center;
-  font-size: 2.7vw;
+  font-size: 1.8vw;
   letter-spacing: 0.09em;
   padding: 54px;
   color: white;
