@@ -79,29 +79,29 @@ main {
   flex: 1;
   overflow-y: auto;
   display: flex;
-  flex-direction: column; /* Cambia la dirección del flexbox a columna */
-  justify-content: justify; /* Centra horizontalmente el contenido */
+  flex-direction: column;
+  justify-content: justify;
 }
 
+/* Estilos para imágenes dentro del contenido principal */
 main img {
   max-width: 100%;
   height: auto;
-  order: -1; /* Cambia el orden para que la imagen aparezca primero */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
-
+  order: -1;
+  margin: 0 auto;
 }
 
-main h1, main p {
-  text-align: center; /* Centra horizontalmente el texto */
+/* Estilos para títulos y párrafos dentro del contenido principal */
+main h1,
+main p {
+  text-align: center;
 }
 
+/* Estilos específicos para los títulos dentro del contenido principal */
 main h1 {
   font-size: 23px;
-  margin-bottom: 1px; /* Ajusta el margen inferior para separar la imagen del título */
-}
-
-main p {
-  margin-bottom: 1px; /* Ajusta el margen inferior para separar el título del párrafo */
+  margin-top: auto/* Separación superior */
+  margin-bottom: auto/* Separación inferior */
 }
 
 footer {
