@@ -101,7 +101,6 @@ main p {
 main h1 {
   font-size: 23px;
   margin-top: auto/* Separación superior */
-  margin-bottom: auto/* Separación inferior */
 }
 
 footer {
