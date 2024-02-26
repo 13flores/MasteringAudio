@@ -32,9 +32,8 @@ header {
 }
 
 header h1 {
-  font-size: auto 2.7vw;
+  font-size: clamp(1.25rem, 2.7vw, 2.5rem); /* Tamaño mínimo: 20px, Tamaño preferido adaptable, Tamaño máximo: 40px */
 }
-
 nav {
   font-size: 2vw;
   display: flex;
@@ -111,8 +110,6 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
-  letter-spacing: 0.05em;
   background-color: #333;
   color: #fff;
   padding: 1%;
@@ -120,4 +117,22 @@ footer {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+
+footer button {
+  background-color: #e1e447;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Espacio entre el botón y el contador de visitas */
+}
+
+footer button:hover {
+  background-color: #ffffff;
+}
+
+footer button:active {
+  background-color: #66b3ff;
+  color: #ffffff;
 }
