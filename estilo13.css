@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'INTUITIVE-FREE', 'PTMono-Regular', monospace, sans-serif;
+  font-family: 'INTUITIVE-FREE', 'PTMono-Regular', monospace, sans-serif; letter-spacing: 2.7px; word-spacing: -2.07px; line-height: 1.3;
   background-color: #000000;
   margin: 0;
   padding: 0;
@@ -103,6 +103,7 @@ main h1 {
 
 main p {
   margin-bottom: 1px; /* Ajusta el margen inferior para separar el título del párrafo */
+  text-indent: 1em;
 }
 
 footer {
