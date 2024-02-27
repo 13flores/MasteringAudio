@@ -75,13 +75,13 @@ nav a:hover {
 }
 
 main {
-  padding: 11% 11%;
+  padding: calc(13vh + 3%) 11% 11%; /* Ajusta el padding del main */
   color: white;
   flex: 1;
   overflow-y: auto;
   display: flex;
-  flex-direction: column; /* Cambia la dirección del flexbox a columna */
-  justify-content: justify; /* Centra horizontalmente el contenido */
+  flex-direction: column;
+  justify-content: justify;
 }
 
 main img {

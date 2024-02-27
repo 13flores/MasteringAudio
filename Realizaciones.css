@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-bottom: 50px; /* Ajusta este valor según la altura de tu footer */
 }
 
 header {
@@ -87,7 +88,7 @@ main {
 main img {
   max-width: 100%;
   height: auto;
-  order: -1;
+  order: 0;
   margin: 0 auto;
 }
 
@@ -117,4 +118,5 @@ footer {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  height: 50px; /* Ajusta esta altura según sea necesario */
 }
